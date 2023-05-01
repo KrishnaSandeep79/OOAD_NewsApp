@@ -9,31 +9,33 @@ Krishna Sandeep Reddy Chittiepu & Dheeraj Reddy Inugala
 
 <br>
 
-### Requirements
+### Requirements:
 1. Flutter Version: 3.3.10
 2. Dart Version: >=2.18.0 <3.0.0
 3. X Code
 4. Visual Studio Code
 
+Run the <code>flutter doctor</code> command to check whether all the requirements are satisfied or not.
+
 <br>
 
-### Steps to run the project
+### Steps to run the project:
 
 1. Clone and project and cd to the newsapp directory. 
 
 2. Install Mason (Mason is a command-line tool that allows you to generate a customized codebase based on your specifications.) and Dart CLI.
 
 3. Activate Mason and Dart CLI's using the following commands 
-* pub global activate mason_cli
-* dart pub global activate dart_frog_cli
+* <code>pub global activate mason_cli</code>
+* <code>dart pub global activate dart_frog_cli</code>
 
-4. cd to the api directory and run the dart_frog dev command.
+4. cd to the <code>api</code> directory and run the <code>dart_frog dev</code> command.
 
-5. Open the IOS simulator using the open -a simulator command.
+5. Open the IOS simulator using the <code>open -a simulator</code> command.
 
-6. Run the flutter app using 
-   flutter run \ \
+6. Finally, run the flutter app using 
+   <br><code>flutter run \ \
   --flavor development \ \
-  --target lib/main/main_development.dart
+  --target lib/main/main_development.dart</code>
 
 
