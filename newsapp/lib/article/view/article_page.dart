@@ -95,7 +95,7 @@ class ArticleView extends StatelessWidget {
       child: HasToShowInterstitialAdListener(
         interstitialAdBehavior: interstitialAdBehavior,
         child: HasReachedArticleLimitListener(
-            child: Scaffold(
+          child: Scaffold(
               backgroundColor: backgroundColor,
               appBar: AppBar(
                 systemOverlayStyle: SystemUiOverlayStyle(
